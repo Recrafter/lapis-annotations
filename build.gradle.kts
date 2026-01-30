@@ -6,6 +6,10 @@ plugins {
     alias(libs.plugins.kotlin.jvm)
 }
 
+dependencies {
+    implementation(libs.lapis.api)
+}
+
 projekt {
     kotlinLibrary {
         jvmTarget = JvmTarget.JVM_1_8
