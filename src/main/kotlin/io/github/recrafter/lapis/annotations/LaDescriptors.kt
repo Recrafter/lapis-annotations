@@ -1,8 +1,9 @@
 package io.github.recrafter.lapis.annotations
 
 import io.github.recrafter.lapis.annotations.common.La
+import kotlin.reflect.KClass
 
 @La
-@Target(AnnotationTarget.VALUE_PARAMETER)
+@Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)
-annotation class LaLocal(val name: String = "", val index: Int = -1)
+annotation class LaDescriptors(val target: KClass<*>)

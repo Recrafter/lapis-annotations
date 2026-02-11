@@ -8,7 +8,7 @@ import kotlin.reflect.KClass
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)
 annotation class LaPatch(
-    val target: KClass<*>,
+    val target: KClass<*> = LaPatch::class,
     val side: LapisPatchSide = LapisPatchSide.Common,
     val widener: String = "",
 )
