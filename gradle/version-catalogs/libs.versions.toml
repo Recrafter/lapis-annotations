@@ -3,7 +3,7 @@ projektor = "4.+"
 
 kotlin = "2.0.21"
 
-lapis-api = "0.5.2"
+lapis-api = "0.5.3"
 
 [plugins]
 projektor = { id = "io.github.diskria.projektor", version.ref = "projektor" }

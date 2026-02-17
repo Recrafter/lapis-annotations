@@ -5,4 +5,4 @@ import io.github.recrafter.lapis.annotations.common.La
 @La
 @Target(AnnotationTarget.VALUE_PARAMETER)
 @Retention(AnnotationRetention.SOURCE)
-annotation class LaParameter
+annotation class LaParameter(val name: String = "")
