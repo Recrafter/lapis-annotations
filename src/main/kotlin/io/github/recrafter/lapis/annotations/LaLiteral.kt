@@ -5,7 +5,7 @@ import io.github.recrafter.lapis.annotations.common.La
 @La
 @Target(AnnotationTarget.VALUE_PARAMETER)
 @Retention(AnnotationRetention.SOURCE)
-annotation class LaConstant(
+annotation class LaLiteral(
     val int: Int = 0,
     val float: Float = 0.toFloat(),
     val long: Long = 0.toLong(),
