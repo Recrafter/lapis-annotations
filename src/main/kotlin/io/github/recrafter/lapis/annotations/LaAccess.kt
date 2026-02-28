@@ -5,4 +5,4 @@ import io.github.recrafter.lapis.annotations.common.La
 @La
 @Target(AnnotationTarget.PROPERTY, AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.SOURCE)
-annotation class LaAccess(val vanillaName: String = "")
+annotation class LaAccess(val name: String = "")

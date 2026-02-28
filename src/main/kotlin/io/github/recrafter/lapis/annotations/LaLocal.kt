@@ -5,4 +5,4 @@ import io.github.recrafter.lapis.annotations.common.La
 @La
 @Target(AnnotationTarget.VALUE_PARAMETER)
 @Retention(AnnotationRetention.SOURCE)
-annotation class LaLocal(val name: String = "", val index: Int = -1)
+annotation class LaLocal(val ordinal: Int)
