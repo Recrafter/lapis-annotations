@@ -1,9 +1,9 @@
 [versions]
-projektor = "4.+"
+projektor = "5.+"
 
-kotlin = "2.0.21"
+kotlin = "2.2.21"
 
-lapis-api = "0.6.0"
+lapis-api = "0.6.1"
 
 [plugins]
 projektor = { id = "io.github.diskria.projektor", version.ref = "projektor" }

@@ -9,11 +9,11 @@ pluginManagement {
 }
 
 plugins {
-    id("io.github.diskria.projektor.settings") version "4.+"
+    id("io.github.diskria.projektor.settings") version "5.+"
 }
 
 projekt {
-    version = "0.6.0"
+    version = "0.6.1"
     license = MIT
     publish = setOf(MAVEN_CENTRAL)
 
