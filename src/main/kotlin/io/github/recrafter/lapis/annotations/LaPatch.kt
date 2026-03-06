@@ -10,5 +10,6 @@ import kotlin.reflect.KClass
 annotation class LaPatch(
     val target: KClass<*> = Unit::class,
     val side: LapisPatchSide = LapisPatchSide.Common,
+    val anonymousIndex: Int = 0,
     val widener: String = "",
 )
