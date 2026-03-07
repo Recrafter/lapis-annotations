@@ -3,11 +3,6 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.projektor)
-    `java-library`
-}
-
-dependencies {
-    implementation(libs.lapis.api)
 }
 
 projekt {

@@ -3,10 +3,5 @@ projektor = "5.+"
 
 kotlin = "2.2.21"
 
-lapis-api = "0.6.2"
-
 [plugins]
 projektor = { id = "io.github.diskria.projektor", version.ref = "projektor" }
-
-[libraries]
-lapis-api = { group = "io.github.recrafter", name = "lapis-api", version.ref = "lapis-api" }
