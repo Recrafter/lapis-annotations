@@ -8,6 +8,6 @@ import kotlin.reflect.KClass
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.SOURCE)
 annotation class LaHook(
-    val method: KClass<*>,
+    val descriptor: KClass<*>,
     val kind: LapisHookKind,
 )
